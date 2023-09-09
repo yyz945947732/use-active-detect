@@ -18,7 +18,7 @@ npm install --save use-active-detect
 function useActiveDetect(options?: Options): void;
 ```
 
-Example
+##### Example
 
 ```tsx
 import * as React from 'react';
@@ -31,7 +31,8 @@ const Example = () => {
       console.log('active');
     },
   });
-  return <div>useActiveDetect</div>;
+
+  return <div>...</div>;
 };
 ```
 
@@ -43,7 +44,7 @@ _wait_ : The number of milliseconds to delay.
 
 _element_: Element to bind activity listeners to.
 
-Example:
+##### Example
 
 ```tsx
 useActiveDetect({
