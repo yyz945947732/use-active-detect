@@ -59,5 +59,15 @@
   "bugs": {
     "url": "https://github.com/yyz945947732/use-active-detect/issues",
     "email": "945947732@qq.com"
-  }
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "active",
+    "activity",
+    "use-idle",
+    "idle",
+    "interaction",
+    "detect"
+  ]
 }
