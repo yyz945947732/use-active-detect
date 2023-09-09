@@ -1,6 +1,6 @@
 {
   "name": "use-active-detect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hook for detecting when a user is active.",
   "author": "https://github.com/yyz945947732/use-active-detect",
   "license": "MIT",
