@@ -57,7 +57,7 @@ useActiveDetect({
 
 ## License
 
-MIT © [https://github.com/yyz945947732/use-active-detect](https://github.com/https://github.com/yyz945947732/use-active-detect/LICENSE)
+MIT © [https://github.com/yyz945947732/use-active-detect](https://github.com/yyz945947732/use-active-detect/blob/master/LICENSE)
 
 ---
 
