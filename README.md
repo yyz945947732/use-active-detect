@@ -12,6 +12,14 @@ npm install --save use-active-detect
 
 ## Usage
 
+### useActiveDetect
+
+```typescript
+function useActiveDetect(options?: Options): void;
+```
+
+Example
+
 ```tsx
 import * as React from 'react';
 
@@ -25,6 +33,26 @@ const Example = () => {
   });
   return <div>useActiveDetect</div>;
 };
+```
+
+### Options
+
+_onActive_ : Function to call when user becomes active.
+
+_wait_ : The number of milliseconds to delay.
+
+_element_: Element to bind activity listeners to.
+
+Example:
+
+```tsx
+useActiveDetect({
+  onActive: (event) => {
+    console.log(event);
+  },
+  wait: 1000,
+  element: document.body,
+});
 ```
 
 ## License
