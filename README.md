@@ -13,23 +13,23 @@ npm install --save use-active-detect
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import * as React from 'react';
 
-import { useMyHook } from 'use-active-detect'
+import { useActiveDetect } from 'use-active-detect';
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
-}
+  useActiveDetect({
+    onActive: () => {
+      console.log('active');
+    },
+  });
+  return <div>useActiveDetect</div>;
+};
 ```
 
 ## License
 
-MIT © [https://github.com/yyz945947732/use-active-detect](https://github.com/https://github.com/yyz945947732/use-active-detect)
+MIT © [https://github.com/yyz945947732/use-active-detect](https://github.com/https://github.com/yyz945947732/use-active-detect/LICENSE)
 
 ---
 

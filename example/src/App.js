@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-import { useMyHook } from 'use-active-detect'
+import { useActiveDetect } from 'use-active-detect';
 
 const App = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
-}
-export default App
+  useActiveDetect({
+    onActive: () => {
+      console.log('active');
+    },
+  });
+  return <div>welcome to useActiveDetect</div>;
+};
+export default App;
