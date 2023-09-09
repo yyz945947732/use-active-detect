@@ -15,7 +15,7 @@ npm install --save use-active-detect
 ### useActiveDetect
 
 ```typescript
-function useActiveDetect(options?: Options): void;
+function useActiveDetect(options: Options): void;
 ```
 
 ##### Example
@@ -38,11 +38,11 @@ const Example = () => {
 
 ### Options
 
-_onActive_ : Function to call when user becomes active.
-
-_wait_ : The number of milliseconds to delay.
-
-_element_: Element to bind activity listeners to.
+| option   | default   | Description                                |
+| -------- | --------- | ------------------------------------------ |
+| onActive | () => {}  | Function to call when user becomes active. |
+| wait     | 1000 * 30 | The number of milliseconds to delay.       |
+| element  | document  | Element to bind activity listeners to.     |
 
 ##### Example
 
